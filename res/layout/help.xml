@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="How To Play"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#FF4000"
+        android:text="1. To place a goat, click on valid node.\n2. To move tiger/goat - click, hold, drag and release on desired node.\n3. Scroll horizontally to select your board, goat and tiger."
+        android:textSize="15sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About BaghChal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#FF4000"
+            android:text="Bagh Chal is a strategic, two-player board game that originates in Nepal. The game is asymmetric in that one player controls four tigers and the other player controls up to twenty goats. The tigers &apos;hunt&apos; the goats while the goats attempt to block the tigers&apos; movements. This game is also seen in southern India with different board but the rules are same. The game is played on a five by five point grid, like alquerque (an ancestor of draughts or checkers). Pieces are positioned at the intersection of the lines and not inside the areas delimited by them. Directions of valid movement between these points are connected by lines. The game play takes place in two phases. In the first phase the goats are placed on the board while the tigers are moved. In the second phase both the goats and the tigers are moved. For the tigers, the objective is to &apos;capture&apos; five goats to win. Capturing is performed as in alquerque and draughts, by jumping over the goats, although capturing is not obligatory. The goats win by blocking all the tigers&apos; legal moves.\n\nDeveloped By: Ashok Subedi\nashok.subedi89@gmail.com"
+            android:textSize="15sp"
+            android:typeface="monospace" />
+    </ScrollView>
+
+</LinearLayout>

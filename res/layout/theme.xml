@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="182dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/tiger"
+                    android:layout_width="83dp"
+                    android:layout_height="190dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tiger1" />
+
+                <ImageView
+                    android:id="@+id/theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:padding="3dp"
+                    android:src="@drawable/board1" />
+
+                <ImageView
+                    android:id="@+id/goat"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:padding="3dp"
+                    android:src="@drawable/goat1" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/theme1"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/board1" />
+
+                    <ImageView
+                        android:id="@+id/theme2"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/board2" />
+
+                    <ImageView
+                        android:id="@+id/theme3"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/board3" />
+
+                    <ImageView
+                        android:id="@+id/theme4"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/board4" />
+
+                    <ImageView
+                        android:id="@+id/theme5"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/board5" />
+
+                    <ImageView
+                        android:id="@+id/theme6"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/board6" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/tig"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:src="@drawable/choosetiger" />
+
+                    <ImageView
+                        android:id="@+id/tiger1"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:src="@drawable/tiger1" />
+
+                    <ImageView
+                        android:id="@+id/tiger2"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:src="@drawable/tiger2" />
+
+                    <ImageView
+                        android:id="@+id/tiger3"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:src="@drawable/tiger3" />
+
+                    <ImageView
+                        android:id="@+id/tigg"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:padding="15dp"
+                        android:src="@drawable/choosegoat" />
+
+                    <ImageView
+                        android:id="@+id/goat1"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/goat1" />
+
+                    <ImageView
+                        android:id="@+id/goat2"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/goat2" />
+
+                    <ImageView
+                        android:id="@+id/goat3"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:padding="15dp"
+                        android:src="@drawable/goat3" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/themeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/myselector"
+                android:text="MultiPlayer"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/themeButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/myselector"
+                android:text="Play vs CPU"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
